@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #0066ff;
+    font-family: "Playwrite DE SAS";
+}
+
+details {
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease;
+}   
+
+.MainStuffBar button {
+    display: inline-block;
+}
+
+button {
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 1rem;
+    font-weight: bold;
+    padding: 0.7rem;
+    margin: 2px;
+    border: solid black 1px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.437);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: block;
+    font-family: "Playwrite DE SAS";
+}
+
+button:hover {
+    padding: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+button:active {
+    padding: 0rem;
+}
+
+.MainStuffBar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.MainStuffBar:hover {
+    padding: 1.2rem;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.AuthPopover {
+    border: solid 5px;
+    width: 20rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+input {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: solid 2px;
+    transition: all 0.3s ease;
+}
+
+input:focus ,input:hover {
+    padding: 1rem;
+}
+
+.CredentialWarning {
+    background-color: rgba(255, 0, 0, 0.437);
+    border-radius: 5px;
+}
